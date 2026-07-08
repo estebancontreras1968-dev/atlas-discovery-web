@@ -3,7 +3,7 @@ import ChainDiagram from "./ChainDiagram";
 
 export default function Hero() {
   return (
-    <section id="top" className="section-shell pb-20 pt-[148px] md:pb-28 md:pt-[176px]">
+    <section id="top" className="section-shell pb-16 pt-16 md:pb-20 md:pt-20">
       <div className="fade-up">
         <span className="eyebrow">Diagnóstico de crecimiento · 100% online</span>
       </div>
