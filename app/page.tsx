@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="pt-[68px]">
         <Hero />
         <ProblemSection />
         <DeliverableSection />
