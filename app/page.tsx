@@ -7,6 +7,7 @@ import DeliverableSection from "@/components/DeliverableSection";
 import ProcessSection from "@/components/ProcessSection";
 import AudienceSection from "@/components/AudienceSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
+import ConfidentialitySection from "@/components/ConfidentialitySection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
@@ -24,6 +25,7 @@ export default function Home() {
         <ProcessSection />
         <AudienceSection />
         <GuaranteeSection />
+        <ConfidentialitySection />
         <FAQSection />
         <FinalCTA />
       </main>

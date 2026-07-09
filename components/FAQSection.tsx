@@ -37,6 +37,10 @@ const faqs = [
     q: "¿Cómo se protege la información de mi empresa?",
     a: "La información entregada en el Formulario Estratégico Atlas Discovery™ se utiliza exclusivamente para elaborar tu diagnóstico y no se comparte con terceros.",
   },
+  {
+    q: "¿Por qué no muestran testimonios?",
+    a: "Porque Atlas Discovery™ analiza información estratégica y sensible de cada empresa. Nuestra política es simple: la información que nuestros clientes nos confían no se transforma en publicidad. Por ello no utilizamos testimonios, logos ni casos de éxito públicos. La confidencialidad es parte del sistema.",
+  },
 ];
 
 export default function FAQSection() {
