@@ -25,26 +25,22 @@ const mono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://atlasdiscovery.com"),
-  title: "Atlas Discovery™ — Encuentra la restricción que frena tu crecimiento",
+  title: "Atlas Discovery™ — Identifica la restricción dominante de tu empresa",
   description:
-    "Atlas Discovery™ identifica la restricción dominante que está frenando el crecimiento de tu empresa y entrega un plan de acción priorizado para los próximos 90 días. Sin reuniones. Sin llamadas.",
+    "Atlas Discovery™ es el sistema de inteligencia empresarial de Atlas Business Evolution™ que identifica la restricción dominante que limita el crecimiento de tu empresa. Sin llamadas, sin reuniones.",
   keywords: [
-    "diagnóstico empresarial",
+    "restricción dominante",
+    "inteligencia empresarial",
     "crecimiento de empresas",
-    "consultoría de negocios",
-    "plan de acción 90 días",
-    "teoría de restricciones",
+    "roadmap 90 días",
+    "GPS Discovery",
   ],
   openGraph: {
-    title: "Atlas Discovery™ — Encuentra la restricción que frena tu crecimiento",
+    title: "Atlas Discovery™ — Identifica la restricción dominante de tu empresa",
     description:
-      "Un diagnóstico. Una restricción. Un plan de 90 días. Sin reuniones, sin llamadas, sin intervención humana antes del pago.",
+      "Tu empresa no tiene muchos problemas. Tiene una restricción dominante. Atlas Discovery™ la identifica sin llamadas ni reuniones.",
     type: "website",
     locale: "es_CL",
-  },
-  robots: {
-    index: true,
-    follow: true,
   },
 };
 

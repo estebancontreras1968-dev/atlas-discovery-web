@@ -2,35 +2,40 @@
 
 import { useState } from "react";
 import { siteConfig } from "@/lib/config";
+import Reveal from "@/components/Reveal";
 
 const faqs = [
   {
     q: "¿Necesito agendar una llamada para comenzar?",
-    a: "No. Todo el proceso ocurre después de tu compra: completas un cuestionario online y recibes tu informe por correo. No hay llamadas de ventas ni reuniones de diagnóstico previas.",
+    a: "No. Todo el proceso ocurre después de tu compra: completas el Formulario Estratégico Atlas Discovery™ y recibes tu Informe Ejecutivo Atlas™. No hay llamadas de ventas ni reuniones previas.",
+  },
+  {
+    q: "¿Qué es el Formulario Estratégico Atlas Discovery™?",
+    a: "Es el formulario estructurado que traduce el estado real de tu empresa en información analizable para GPS Discovery™. Lo completas a tu ritmo, sin intervención humana previa.",
+  },
+  {
+    q: "¿Qué es GPS Discovery™?",
+    a: "Es el motor analítico de Atlas Discovery™. Analiza la información entregada, identifica la restricción dominante, prioriza las oportunidades y construye tu roadmap de 90 días.",
   },
   {
     q: "Mi empresa no tiene empleados, ¿igual me sirve?",
-    a: "Sí. Atlas Discovery™ está diseñado específicamente para empresas donde el dueño opera gran parte del negocio, con o sin equipo. El plan de 90 días se ajusta a la capacidad real que tienes disponible.",
+    a: "Sí. Atlas Discovery™ está diseñado para empresas con entre 0 y N trabajadores, siempre que exista participación activa del dueño, socio, gerente general o tomador de decisiones.",
   },
   {
-    q: `¿Cuánto tiempo toma recibir el informe?`,
-    a: `Una vez que completas el cuestionario, el informe y el plan de acción llegan a tu correo en ${siteConfig.deliveryWindow}.`,
+    q: "¿Cuánto cuesta Atlas Discovery™?",
+    a: `Atlas Discovery™ tiene un valor de ${siteConfig.price}, con pago único — sin suscripción.`,
   },
   {
-    q: "¿Qué pasa si no logro los resultados propuestos?",
-    a: "Si ejecutaste el plan según lo recomendado y reportaste tu avance semanal, mantenemos el acompañamiento por correo sin costo adicional hasta que se alcance el resultado, salvo que existan variables externas fuera de nuestro control.",
+    q: "¿Qué pasa si no logro resultados?",
+    a: "Atlas acompaña al cliente hasta asegurar la correcta comprensión de las recomendaciones entregadas, siempre que las acciones sean implementadas conforme a la estrategia propuesta y no existan factores externos o exógenos que alteren significativamente las condiciones analizadas.",
   },
   {
-    q: "¿Sirve para cualquier industria?",
-    a: "El framework Atlas se basa en principios de operación y crecimiento aplicables a la mayoría de los negocios de servicios, comercio y producción a pequeña y mediana escala. Si tienes dudas sobre tu caso particular, escríbenos antes de comprar.",
+    q: "¿Atlas Discovery™ reemplaza a una consultoría estratégica?",
+    a: "No. Atlas Discovery™ identifica con precisión dónde debe concentrarse el esfuerzo estratégico antes de iniciar procesos de implementación o acompañamiento.",
   },
   {
-    q: "¿Qué necesito preparar antes de comprar?",
-    a: "Nada. El cuestionario está diseñado para completarse con la información que ya tienes: cifras generales de facturación, costos y operación de los últimos meses.",
-  },
-  {
-    q: "¿Cómo se protege la información de mi negocio?",
-    a: "Tus respuestas y datos se usan exclusivamente para elaborar tu diagnóstico y no se comparten con terceros.",
+    q: "¿Cómo se protege la información de mi empresa?",
+    a: "La información entregada en el Formulario Estratégico Atlas Discovery™ se utiliza exclusivamente para elaborar tu diagnóstico y no se comparte con terceros.",
   },
 ];
 
@@ -39,12 +44,14 @@ export default function FAQSection() {
 
   return (
     <section id="faq" className="section-shell border-t border-line py-20 md:py-28">
-      <div className="max-w-[560px]">
-        <span className="eyebrow">Preguntas frecuentes</span>
-        <h2 className="mt-5 text-balance font-display text-[30px] font-semibold leading-[1.15] tracking-tightest text-ink md:text-[36px]">
-          Antes de comenzar
-        </h2>
-      </div>
+      <Reveal>
+        <div className="max-w-[560px]">
+          <span className="eyebrow">Preguntas frecuentes</span>
+          <h2 className="mt-5 text-balance font-display text-[30px] font-semibold leading-[1.15] tracking-tightest text-ink md:text-[36px]">
+            Antes de comenzar
+          </h2>
+        </div>
+      </Reveal>
 
       <div className="mt-12 border-t border-line">
         {faqs.map((item, i) => {

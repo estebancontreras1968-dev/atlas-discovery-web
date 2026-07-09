@@ -9,8 +9,8 @@ export default function Header() {
         </a>
 
         <nav className="hidden items-center gap-8 font-sans text-[14px] text-slate md:flex">
-          <a href="#problema" className="transition-colors hover:text-ink">
-            El problema
+          <a href="#que-es" className="transition-colors hover:text-ink">
+            Qué es
           </a>
           <a href="#proceso" className="transition-colors hover:text-ink">
             Cómo funciona
@@ -27,7 +27,7 @@ export default function Header() {
           href={siteConfig.checkoutUrl}
           className="inline-flex items-center justify-center rounded-[4px] bg-ink px-5 py-2.5 font-sans text-[13.5px] font-medium text-paper transition-colors hover:bg-atlas"
         >
-          Comenzar diagnóstico
+          Comenzar Atlas Discovery™
         </a>
       </div>
     </header>
