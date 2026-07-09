@@ -2,7 +2,7 @@ import Reveal from "@/components/Reveal";
 
 const fits = [
   "Facturación desde ~USD 3.000/mes, sin techo",
-  "Entre 0 y N trabajadores",
+  "Negocios con o sin trabajadores",
   "Participación activa del dueño, socio, gerente general o tomador de decisiones",
   "Quiere crecer",
   "Está dispuesto a implementar cambios",
