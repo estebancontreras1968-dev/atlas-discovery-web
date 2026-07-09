@@ -10,12 +10,10 @@ export default function FinalCTA() {
             Empieza hoy
           </span>
           <h2 className="mt-5 max-w-[640px] text-balance font-display text-[32px] font-semibold leading-[1.12] tracking-tightest text-paper md:text-[44px]">
-            Tu empresa no tiene muchos problemas. Tiene una restricción dominante.
+            Atlas Discovery™ identifica el factor único que limita el
+            crecimiento de tu empresa, sin reuniones, sin llamadas
+            telefónicas, sin intervención humana y con resultado inmediato.
           </h2>
-          <p className="mt-5 max-w-[480px] font-sans text-[15.5px] leading-relaxed text-slate-light">
-            Atlas Discovery™ la identifica antes de que sigas invirtiendo en
-            síntomas secundarios.
-          </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
             <a

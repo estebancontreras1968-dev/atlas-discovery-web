@@ -10,14 +10,10 @@ export default function Hero() {
           <span className="eyebrow">Sistema de inteligencia empresarial</span>
 
           <h1 className="mt-6 max-w-[560px] text-balance font-display text-[36px] font-semibold leading-[1.1] tracking-tightest text-ink md:text-[52px]">
-            Tu empresa no tiene muchos problemas. Tiene una restricción dominante.
+            Atlas Discovery™ identifica el factor único que limita el
+            crecimiento de tu empresa, sin reuniones, sin llamadas
+            telefónicas, sin intervención humana y con resultado inmediato.
           </h1>
-
-          <p className="mt-6 max-w-[480px] font-sans text-[17px] leading-relaxed text-slate md:text-[18px]">
-            Atlas Discovery™ identifica el factor único que limita el crecimiento
-            de tu empresa — sin llamadas, sin reuniones, sin intervención humana
-            antes del pago.
-          </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
             <a href={siteConfig.checkoutUrl} className="btn-primary">
