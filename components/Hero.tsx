@@ -22,8 +22,11 @@ export default function Hero() {
           </div>
 
           <div className="mt-4 flex flex-col gap-1">
+            <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light opacity-60">
+              Precio regular
+            </span>
             <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light line-through opacity-60">
-              Antes {siteConfig.priceReference}
+              {siteConfig.priceReference}
             </span>
             <span className="font-display text-[30px] font-semibold leading-none text-ink md:text-[34px]">
               {siteConfig.price}
