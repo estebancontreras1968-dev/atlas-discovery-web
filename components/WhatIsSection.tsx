@@ -12,12 +12,12 @@ export default function WhatIsSection() {
   return (
     <section id="que-es" className="section-shell border-t border-line py-20 md:py-28">
       <Reveal>
-        <span className="eyebrow">Qué es Atlas Discovery™</span>
+        <span className="eyebrow">Qué es GPS Discovery™</span>
         <h2 className="mt-5 max-w-[680px] text-balance font-display text-[30px] font-semibold leading-[1.15] tracking-tightest text-ink md:text-[36px]">
           Un sistema de inteligencia empresarial, no una consultoría
         </h2>
         <p className="mt-5 max-w-[620px] font-sans text-[15.5px] leading-relaxed text-slate">
-          Atlas Discovery™ no depende de opiniones ni de horas de reunión.
+          GPS Discovery™ no depende de opiniones ni de horas de reunión.
           Es un sistema que procesa la información real de tu empresa para
           localizar, con precisión, el punto que limita su crecimiento.
         </p>
@@ -32,7 +32,7 @@ export default function WhatIsSection() {
             <p className="mt-4 font-sans text-[15px] leading-relaxed text-ink">
               Las organizaciones funcionan como sistemas: un componente limita
               la capacidad del conjunto, sin importar cuánto mejoren los
-              demás. Atlas Discovery™ identifica ese punto antes de que
+              demás. GPS Discovery™ identifica ese punto antes de que
               inviertas en resolver síntomas secundarios que no cambiarán el
               resultado.
             </p>
@@ -49,7 +49,7 @@ export default function WhatIsSection() {
               El motor analítico
             </span>
             <h3 className="mt-3 font-display text-[22px] font-semibold text-ink">
-              GPS Discovery™
+              Sistema GPS Discovery™
             </h3>
             <ul className="mt-6 flex flex-col gap-5">
               {gpsSteps.map((step, i) => (

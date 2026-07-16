@@ -23,7 +23,7 @@ export default function AudienceSection() {
       <Reveal>
         <span className="eyebrow">Para quién es</span>
         <h2 className="mt-5 max-w-[620px] text-balance font-display text-[30px] font-semibold leading-[1.15] tracking-tightest text-ink md:text-[36px]">
-          Atlas Discovery™ no es para todos
+          GPS Discovery™ no es para todos
         </h2>
       </Reveal>
 

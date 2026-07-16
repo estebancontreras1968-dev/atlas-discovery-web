@@ -8,7 +8,7 @@ const steps = [
   },
   {
     n: "02",
-    title: "Completas el Formulario Estratégico Atlas Discovery™",
+    title: "Completas el Formulario Estratégico GPS Discovery™",
     body: "Un formulario estructurado que traduce el estado real de tu empresa a información analizable.",
   },
   {
@@ -19,7 +19,7 @@ const steps = [
   {
     n: "04",
     title: "Recibes los 5 entregables",
-    body: "Consolidados en tu Informe Ejecutivo Atlas™.",
+    body: "Consolidados en tu Informe Ejecutivo GPS™.",
   },
 ];
 

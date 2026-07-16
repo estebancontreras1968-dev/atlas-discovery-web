@@ -25,20 +25,20 @@ const mono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://atlasdiscovery.com"),
-  title: "Atlas Discovery™ — Identifica la restricción dominante de tu empresa",
+  title: "GPS Discovery™ — Identifica la restricción dominante de tu empresa",
   description:
-    "Atlas Discovery™ es el sistema de inteligencia empresarial de Atlas Business Evolution™ que identifica la restricción dominante que limita el crecimiento de tu empresa. Sin llamadas, sin reuniones.",
+    "GPS Discovery™ es el sistema de inteligencia empresarial de Atlas Business Evolution™ que identifica la restricción dominante que limita el crecimiento de tu empresa. Sin llamadas, sin reuniones.",
   keywords: [
     "restricción dominante",
     "inteligencia empresarial",
     "crecimiento de empresas",
-    "roadmap 90 días",
+    "GPS Roadmap 90 días",
     "GPS Discovery",
   ],
   openGraph: {
-    title: "Atlas Discovery™ — Identifica la restricción dominante de tu empresa",
+    title: "GPS Discovery™ — Identifica la restricción dominante de tu empresa",
     description:
-      "Tu empresa no tiene muchos problemas. Tiene una restricción dominante. Atlas Discovery™ la identifica sin llamadas ni reuniones.",
+      "Tu empresa no tiene muchos problemas. Tiene una restricción dominante. GPS Discovery™ la identifica sin llamadas ni reuniones.",
     type: "website",
     locale: "es_CL",
   },

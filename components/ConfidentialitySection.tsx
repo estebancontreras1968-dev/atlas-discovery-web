@@ -20,7 +20,7 @@ export default function ConfidentialitySection() {
                 hacerlo.
               </p>
               <p>
-                Atlas Discovery™ no trabaja con opiniones. Trabaja con
+                GPS Discovery™ no trabaja con opiniones. Trabaja con
                 información estratégica real de empresas reales —
                 crecimiento, rentabilidad, restricciones operacionales,
                 decisiones de negocio.

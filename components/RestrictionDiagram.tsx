@@ -1,4 +1,4 @@
-// Diagrama de firma — Atlas Discovery™
+// Diagrama de firma — GPS Discovery™
 // Línea punteada: capacidad potencial (picos y valles).
 // Línea sólida plana: flujo efectivo del sistema, capado al nivel del punto más bajo.
 // El punto de restricción se marca con un círculo signal y la etiqueta "RESTRICCIÓN IDENTIFICADA".

@@ -10,14 +10,14 @@ export default function Hero() {
           <span className="eyebrow">Sistema de inteligencia empresarial</span>
 
           <h1 className="mt-6 max-w-[560px] text-balance font-display text-[36px] font-semibold leading-[1.1] tracking-tightest text-ink md:text-[52px]">
-            Atlas Discovery™ identifica el factor único que limita el
+            GPS Discovery™ identifica el factor único que limita el
             crecimiento de tu empresa, sin reuniones, sin llamadas
             telefónicas, sin intervención humana y con resultado inmediato.
           </h1>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
             <a href={siteConfig.checkoutUrl} className="btn-primary">
-              Comenzar Atlas Discovery™
+              Comenzar GPS Discovery™
             </a>
           </div>
 

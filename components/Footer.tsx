@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="section-shell flex flex-col gap-6 border-t border-white/10 pt-8 text-slate-light sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="font-display text-[14px] font-semibold text-paper">
-            Atlas Discovery™
+            GPS Discovery™
           </p>
           <p className="mt-1 font-sans text-[12.5px]">
             Un producto de {siteConfig.company}

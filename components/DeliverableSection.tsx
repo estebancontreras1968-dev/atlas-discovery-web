@@ -6,15 +6,15 @@ const items = [
     desc: "El factor único identificado como límite real del crecimiento de tu empresa en este momento.",
   },
   {
-    label: "Score Empresarial™",
+    label: "GPS Score™",
     desc: "Una medición estructurada del estado actual de tu empresa a través de sus áreas clave.",
   },
   {
-    label: "Roadmap 90 días™",
+    label: "GPS Roadmap™ de 90 días",
     desc: "El orden priorizado de acciones a seguir durante los próximos 90 días para atender la restricción.",
   },
   {
-    label: "Informe Ejecutivo Atlas™",
+    label: "Informe Ejecutivo GPS™",
     desc: "El documento que consolida los hallazgos, la evidencia y las recomendaciones en un solo lugar.",
   },
   {
