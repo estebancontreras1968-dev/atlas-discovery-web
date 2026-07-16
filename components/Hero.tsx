@@ -22,7 +22,8 @@ export default function Hero() {
           </div>
 
           <p className="mt-4 font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light">
-            {siteConfig.price} · Pago único
+            <span className="mr-2 line-through opacity-50">{siteConfig.priceReference}</span>
+            <span className="text-ink">{siteConfig.price}</span> · Pago único
           </p>
         </div>
 
