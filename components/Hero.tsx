@@ -21,10 +21,17 @@ export default function Hero() {
             </a>
           </div>
 
-          <p className="mt-4 font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light">
-            <span className="mr-2 line-through opacity-50">{siteConfig.priceReference}</span>
-            <span className="text-ink">{siteConfig.price}</span> · Pago único
-          </p>
+          <div className="mt-4 flex flex-col gap-1">
+            <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light line-through opacity-60">
+              Antes {siteConfig.priceReference}
+            </span>
+            <span className="font-display text-[30px] font-semibold leading-none text-ink md:text-[34px]">
+              {siteConfig.price}
+            </span>
+            <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light">
+              Pago único
+            </span>
+          </div>
         </div>
 
         <Reveal delay={0.1}>

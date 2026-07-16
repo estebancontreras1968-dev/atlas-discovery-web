@@ -22,10 +22,17 @@ export default function FinalCTA() {
             >
               Comenzar GPS Discovery™
             </a>
-            <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light">
-              <span className="mr-2 line-through opacity-50">{siteConfig.priceReference}</span>
-              <span className="text-paper">{siteConfig.price}</span> · Pago único
-            </span>
+            <div className="flex flex-col gap-1">
+              <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light line-through opacity-60">
+                Antes {siteConfig.priceReference}
+              </span>
+              <span className="font-display text-[28px] font-semibold leading-none text-paper md:text-[32px]">
+                {siteConfig.price}
+              </span>
+              <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light">
+                Pago único
+              </span>
+            </div>
           </div>
         </Reveal>
       </div>
