@@ -8,7 +8,7 @@ export const siteConfig = {
   brand: "GPS Discovery™",
   company: "Atlas Business Evolution™",
 
-  checkoutUrl: "[CHECKOUT_URL]",
+  checkoutUrl: "https://pay.hotmart.com/G106762844F",
   price: "$197.000 CLP",
   priceReference: "$397.000 CLP",
 
