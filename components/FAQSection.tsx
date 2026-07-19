@@ -6,16 +6,24 @@ import Reveal from "@/components/Reveal";
 
 const faqs = [
   {
-    q: "¿Necesito agendar una llamada para comenzar?",
-    a: "No. Todo el proceso ocurre después de tu compra: completas el Formulario Estratégico GPS Discovery™ y recibes tu Informe Ejecutivo GPS™. No hay llamadas de ventas ni reuniones previas.",
+    q: "¿Cómo puede GPS Discovery™ analizar mi empresa sin reuniones?",
+    a: "Después de la compra completas un formulario estratégico estructurado. GPS Discovery™ organiza, clasifica y relaciona la información entregada para identificar patrones, causas y restricciones. No requiere entrevistas para iniciar el análisis.",
   },
   {
     q: "¿Qué es el Formulario Estratégico GPS Discovery™?",
     a: "Es el formulario estructurado que traduce el estado real de tu empresa en información analizable para el Sistema GPS Discovery™. Lo completas a tu ritmo, sin intervención humana previa.",
   },
   {
+    q: "¿Por qué debo pagar antes de completar el formulario?",
+    a: "El formulario estratégico forma parte del producto y contiene la estructura utilizada para recopilar la información empresarial necesaria. El acceso se habilita después de la compra, de la misma manera que ocurre con otros sistemas, plataformas y herramientas empresariales.",
+  },
+  {
     q: "¿Qué es GPS Discovery™?",
     a: "Es el sistema de inteligencia empresarial de Atlas Business Evolution™. Analiza la información entregada, identifica la restricción dominante, prioriza las oportunidades y construye tu GPS Roadmap™ de 90 días.",
+  },
+  {
+    q: "¿Qué ocurre después de realizar el pago?",
+    a: "Hotmart confirma la compra, habilita tu acceso y entrega las instrucciones para comenzar. Luego completas el formulario estratégico y, en cuanto lo envías, comienza el procesamiento: tus cinco entregables estarán disponibles tan pronto finalice.",
   },
   {
     q: "Mi empresa no tiene empleados, ¿igual me sirve?",
@@ -30,16 +38,12 @@ const faqs = [
     a: "Atlas acompaña al cliente hasta asegurar la correcta comprensión de las recomendaciones entregadas, siempre que las acciones sean implementadas conforme a la estrategia propuesta y no existan factores externos o exógenos que alteren significativamente las condiciones analizadas.",
   },
   {
-    q: "¿GPS Discovery™ reemplaza a una consultoría estratégica?",
-    a: "No. GPS Discovery™ identifica con precisión dónde debe concentrarse el esfuerzo estratégico antes de iniciar procesos de implementación o acompañamiento.",
+    q: "¿GPS Discovery™ reemplaza a un consultor?",
+    a: "No. GPS Discovery™ entrega una evaluación estructurada y una ruta inicial de prioridades. La ejecución posterior puede ser realizada por el dueño, el equipo interno o los especialistas que la empresa determine.",
   },
   {
-    q: "¿Cómo se protege la información de mi empresa?",
-    a: "La información entregada en el Formulario Estratégico GPS Discovery™ se utiliza exclusivamente para elaborar tu diagnóstico y no se comparte con terceros.",
-  },
-  {
-    q: "¿Por qué no muestran testimonios?",
-    a: "Porque GPS Discovery™ analiza información estratégica y sensible de cada empresa. Nuestra política es simple: la información que nuestros clientes nos confían no se transforma en publicidad. Por ello no utilizamos testimonios, logos ni casos de éxito públicos. La confidencialidad es parte del sistema.",
+    q: "¿Por qué no publican testimonios?",
+    a: "Porque protegemos la identidad, experiencia e información estratégica de las empresas que utilizan el sistema. En su lugar, mostramos ejemplos ficticios, mockups y una explicación transparente del proceso.",
   },
 ];
 

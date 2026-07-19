@@ -11,6 +11,7 @@ export const siteConfig = {
   checkoutUrl: "https://pay.hotmart.com/G106762844F",
   price: "$197.000 CLP",
   priceReference: "$397.000 CLP",
+  ctaSupportText: "Pago único · Acceso inmediato · Sin reuniones",
 
   contactEmail: "hola@atlasdiscovery.com",
 };

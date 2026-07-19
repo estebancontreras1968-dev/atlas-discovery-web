@@ -12,13 +12,16 @@ export default function Hero() {
           <h1 className="mt-6 max-w-[560px] text-balance font-display text-[36px] font-semibold leading-[1.1] tracking-tightest text-ink md:text-[52px]">
             GPS Discovery™ identifica el factor único que limita el
             crecimiento de tu empresa, sin reuniones, sin llamadas
-            telefónicas, sin intervención humana y con resultado inmediato.
+            telefónicas y sin intervención humana en el análisis inicial.
           </h1>
 
-          <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a href={siteConfig.checkoutUrl} className="btn-primary">
               Comenzar GPS Discovery™
             </a>
+            <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate">
+              {siteConfig.ctaSupportText}
+            </span>
           </div>
 
           <div className="mt-4 flex flex-col gap-1">

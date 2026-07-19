@@ -12,10 +12,16 @@ export default function FinalCTA() {
           <h2 className="mt-5 max-w-[640px] text-balance font-display text-[32px] font-semibold leading-[1.12] tracking-tightest text-paper md:text-[44px]">
             GPS Discovery™ identifica el factor único que limita el
             crecimiento de tu empresa, sin reuniones, sin llamadas
-            telefónicas, sin intervención humana y con resultado inmediato.
+            telefónicas y sin intervención humana en el análisis inicial.
           </h2>
 
-          <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
+          <div className="mt-3">
+            <span className="font-mono text-[12px] uppercase tracking-[0.1em] text-slate-light">
+              {siteConfig.ctaSupportText}
+            </span>
+          </div>
+
+          <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center">
             <a
               href={siteConfig.checkoutUrl}
               className="inline-flex items-center justify-center gap-2 rounded-[4px] bg-paper px-8 py-4 font-sans text-[15px] font-medium text-ink transition-colors duration-200 hover:bg-signal hover:text-paper"

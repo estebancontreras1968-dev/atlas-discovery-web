@@ -10,35 +10,35 @@ export default function ConfidentialitySection() {
               Confidencialidad
             </span>
             <h2 className="mt-5 text-balance font-display text-[28px] font-semibold leading-[1.15] tracking-tightest text-paper md:text-[36px]">
-              Nuestra mejor referencia es la información que decidimos no
-              mostrar.
+              ¿Por qué no publicamos testimonios?
             </h2>
 
             <div className="mt-6 space-y-4 font-sans text-[15.5px] leading-relaxed text-slate-light">
               <p>
-                Podríamos publicar nombres, logos y testimonios. Elegimos no
-                hacerlo.
+                GPS Discovery™ trabaja con información estratégica, operativa
+                y financiera que pertenece exclusivamente a cada empresa.
+                Nuestra política es no utilizar la experiencia, los
+                resultados ni la identidad de nuestros clientes como material
+                publicitario.
               </p>
               <p>
-                GPS Discovery™ no trabaja con opiniones. Trabaja con
-                información estratégica real de empresas reales —
-                crecimiento, rentabilidad, restricciones operacionales,
-                decisiones de negocio.
+                Preferimos demostrar el funcionamiento del sistema mediante
+                ejemplos anónimos, mockups de los entregables y una
+                explicación transparente del proceso, sin exponer información
+                empresarial confidencial.
               </p>
               <p>
                 Entendemos que la misma confidencialidad que un empresario
                 espera de su abogado, su contador o su directorio, debe
-                existir también en un sistema de inteligencia empresarial.
-              </p>
-              <p>
-                La confidencialidad no es una cláusula. Es parte del producto
-                — alineada además con los principios de la Ley N° 21.719
-                sobre Protección y Tratamiento de Datos Personales en Chile.
+                existir también en un sistema de inteligencia empresarial —
+                alineada además con los principios de la Ley N° 21.719 sobre
+                Protección y Tratamiento de Datos Personales en Chile.
               </p>
             </div>
 
             <p className="mt-8 font-display text-[20px] font-semibold text-paper md:text-[22px]">
-              La confianza también se demuestra guardando silencio.
+              La confidencialidad no comienza después del análisis. Comienza
+              desde el primer contacto.
             </p>
           </div>
         </Reveal>
